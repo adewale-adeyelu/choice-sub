@@ -1,0 +1,117 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
+    background-color: #f4f4f9;
+}
+
+.card {
+    box-shadow: 0 8px 28px rgba(0, 0, 0, 0.2);
+    background-color: #fff;
+    margin: 20px;
+    width: 450px;
+    padding: 30px;
+    border-radius: 8px;
+}
+
+.card-form {
+    box-shadow: 0 8px 28px rgba(0, 0, 0, 0.2);
+    align-items: center;
+    background-color: #ffff;
+    text-align: center;
+    margin-top: 60px;
+    width: 450px;
+    padding: 40px;
+    border-radius: 8px;
+}
+
+.logo {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    justify-content: center;
+}
+
+.logo img {
+    border-radius: 8px;
+}
+
+.logo h1 {
+    font: 30px poppins, sans-serif;
+    color: #000088;
+    font-weight: bold;
+    white-space: nowrap;
+    margin-top: 8px;
+}
+
+.text p {
+    color: #6c757D;
+    font: 16px system-ui, -apple-system, "sans-serif";
+    margin: 10px 0;
+    text-align: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin: 8px 0;
+    text-align: left;
+    color: #6c757D;
+    font: 17px system-ui, -apple-system, "sans-serif";
+}
+
+input {
+    color: #6c757D;
+    font: 16px system-ui, -apple-system, "sans-serif";
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+input:hover,
+input:focus {
+    border: 1px solid blue;
+}
+
+.referer {
+    font: 14px poppins, sans-serif;
+    color: red;
+}
+
+button {
+    background-color: #000088;
+    cursor: pointer;
+    padding: 20px;
+    border: 1px solid #000088;
+    font: 16px system-ui, -apple-system, "sans-serif";
+}
+
+button a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.space-around {
+    text-align: center;
+    padding: 20px;
+}
+
+@media only screen and (max-width:768px) {
+    .card {
+        width: 360px;
+        margin: 30px 0;
+    }
+    .card-form {
+        width: 360px;
+    }
+}
