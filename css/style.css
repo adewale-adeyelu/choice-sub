@@ -102,7 +102,7 @@
     }
     
     .transform:hover {
-        transition: all 0.5s;
+        transition: all 0.8s;
         background-color: #00008b;
         color: white;
     }
@@ -138,6 +138,17 @@
     .size-display {
         font-size: 35px;
     }
+    
+    .border {
+        /* border: 30px solid #fff; */
+        box-shadow: 0 0 0 10px white inset;
+    }
+    /* figure {
+        border-top-style: none;
+        border-right-style: none;
+        border-left-style: none;
+        border-bottom-style: none;
+    } */
     
     @media only screen and (max-width: 768px) {
         .text-nowrap {
